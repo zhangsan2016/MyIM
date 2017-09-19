@@ -54,9 +54,12 @@ public class SplashActivity extends AppCompatActivity {
 
                 }else{  // 没有登录过
                     // 跳转到登录
-                    Intent intent = new Intent(SplashActivity.this,MainActivity.class);
+                    Intent intent = new Intent(SplashActivity.this,LoginActivity.class);
                     startActivity(intent);
                 }
+
+                // 关闭当前页面
+                finish();
 
             }
         }.start();
