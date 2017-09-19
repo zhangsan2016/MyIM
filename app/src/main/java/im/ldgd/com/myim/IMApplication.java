@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMOptions;
+import com.hyphenate.easeui.EaseUI;
 
 /**
  * Created by ldgd on 2017/9/18.
@@ -30,6 +31,7 @@ public class IMApplication extends Application {
         EMClient.getInstance().init(this, options);
          //在做打包混淆时，关闭debug模式，避免消耗不必要的资源
         EMClient.getInstance().setDebugMode(true);
+        EaseUI.getInstance().init(this,options);
 
 
     }

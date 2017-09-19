@@ -6,5 +6,15 @@
     android:layout_height="match_parent"
     tools:context="im.ldgd.com.myim.controller.activity.LoginActivity">
 
+<!--
+    <com.hyphenate.easeui.widget.EaseTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleBarTitle="登录">
+
+    </com.hyphenate.easeui.widget.EaseTitleBar>-->
+
+
+
 
 </LinearLayout>
