@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_context_contact_list.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\src\\main\\res\\menu\\em_context_contact_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_remove_from_blacklist.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\src\\main\\res\\menu\\em_remove_from_blacklist.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_delete_message.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\src\\main\\res\\menu\\em_delete_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_multi_device_menu_item.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\src\\main\\res\\menu\\em_multi_device_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_context_tab_contact.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\src\\main\\res\\menu\\em_context_tab_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_delete_contact.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\ChatDemoUI3.0\\src\\main\\res\\menu\\em_delete_contact.xml"
+    }
+]
