@@ -63,6 +63,7 @@
             </intent-filter>
         </receiver>
 
+
         <activity android:name=".controller.activity.MainActivity" />
         <activity
             android:name=".controller.activity.LoginActivity"
