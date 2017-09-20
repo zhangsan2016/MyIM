@@ -24,16 +24,16 @@
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_showvideo_activity.xml",
-        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_showvideo_activity.xml"
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_location.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_location.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\rp_popup_layout.xml",
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\0744bcc295b8ecb8c5b9538b60feaacb87ab0315\\output\\res\\layout\\rp_popup_layout.xml"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_location.xml",
-        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_location.xml"
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_showvideo_activity.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_showvideo_activity.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture.xml",
@@ -128,24 +128,24 @@
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\rp_choose_record_popup_layout.xml",
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\0744bcc295b8ecb8c5b9538b60feaacb87ab0315\\output\\res\\layout\\rp_choose_record_popup_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_bigexpression.xml",
         "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_bigexpression.xml"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_contact_list.xml",
-        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_contact_list.xml"
-    },
-    {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_tips_dialog.xml",
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\0744bcc295b8ecb8c5b9538b60feaacb87ab0315\\output\\res\\layout\\rp_pay_tips_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_contact_list.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_widget_contact_list.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_emojicon_menu.xml",

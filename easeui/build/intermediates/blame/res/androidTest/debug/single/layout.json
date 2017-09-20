@@ -4,12 +4,12 @@
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_sent_picture.xml",
-        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_sent_picture.xml"
-    },
-    {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_chat_message_list.xml",
         "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_chat_message_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_sent_picture.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_sent_picture.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",

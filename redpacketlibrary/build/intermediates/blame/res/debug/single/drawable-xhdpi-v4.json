@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_close_icon.png",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_group_icon.png",

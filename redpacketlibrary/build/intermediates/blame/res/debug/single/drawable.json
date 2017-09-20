@@ -4,12 +4,12 @@
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_loading_anim.xml",
-        "source": "C:\\Users\\ldgd\\.android\\build-cache\\0744bcc295b8ecb8c5b9538b60feaacb87ab0315\\output\\res\\drawable\\rp_loading_anim.xml"
-    },
-    {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_loading_anim.xml",
+        "source": "C:\\Users\\ldgd\\.android\\build-cache\\0744bcc295b8ecb8c5b9538b60feaacb87ab0315\\output\\res\\drawable\\rp_loading_anim.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_sidebar_background.xml",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_msg_state_failed_resend.xml",
         "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",

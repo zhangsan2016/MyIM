@@ -8,12 +8,12 @@
         "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_bottom_in.xml"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",

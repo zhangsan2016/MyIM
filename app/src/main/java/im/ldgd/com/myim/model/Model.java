@@ -26,6 +26,11 @@ public class Model {
         return model;
     }
 
+    // 获取全局线程池对象
+    public ExecutorService getGlobalThreadPool(){
+        return executors;
+    }
+
 
     // 初始化的方法
     public void init(Context context){

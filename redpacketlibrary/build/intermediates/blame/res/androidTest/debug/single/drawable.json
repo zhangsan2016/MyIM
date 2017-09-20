@@ -12,24 +12,24 @@
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\0744bcc295b8ecb8c5b9538b60feaacb87ab0315\\output\\res\\drawable\\rp_stroke_red_normal_shape.xml"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_recording_hint_bg.xml",
-        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_recording_hint_bg.xml"
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rp_btn_red_pressed_shape.xml",
+        "source": "C:\\Users\\ldgd\\.android\\build-cache\\0744bcc295b8ecb8c5b9538b60feaacb87ab0315\\output\\res\\drawable\\rp_btn_red_pressed_shape.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rp_btn_red_pressed_shape.xml",
-        "source": "C:\\Users\\ldgd\\.android\\build-cache\\0744bcc295b8ecb8c5b9538b60feaacb87ab0315\\output\\res\\drawable\\rp_btn_red_pressed_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_recording_hint_bg.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_recording_hint_bg.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_blue_selector.xml",
         "source": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\ldgd\\.android\\build-cache\\38c5721c12e80c8ab1b86806e811224931bd74c5\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "C:\\Users\\ldgd\\Desktop\\project\\studio project\\MyIM\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_small_material.xml",
