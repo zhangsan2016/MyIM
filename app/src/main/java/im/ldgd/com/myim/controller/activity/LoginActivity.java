@@ -32,6 +32,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         // 初始化控件
         initView();
 
+
+
     }
 
     private void initView() {
