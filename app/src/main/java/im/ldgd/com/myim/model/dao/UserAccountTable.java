@@ -20,6 +20,7 @@ public class UserAccountTable {
             + COL_PHOTO + " text);";
 
 
+
 }
 
 

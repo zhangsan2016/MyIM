@@ -16,11 +16,8 @@ public class UserAccountDB extends SQLiteOpenHelper {
     /**
      * 构造
      * @param context
-     * @param name
-     * @param factory
-     * @param version
      */
-    public UserAccountDB(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
+    public UserAccountDB(Context context) {
 
         super(context, "account.db", null, 1);
 

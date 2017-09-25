@@ -1,5 +1,6 @@
 package im.ldgd.com.myim.controller.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -9,11 +10,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
 
 import im.ldgd.com.myim.R;
 import im.ldgd.com.myim.model.Model;
+import im.ldgd.com.myim.model.UserInfo;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     private EditText etLoginName;
@@ -32,6 +35,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         // 初始化控件
         initView();
 
+/*        UserAccountDB userAccountDB = new UserAccountDB(this);
+        userAccountDB.getWritableDatabase();*/
 
 
     }
@@ -60,6 +65,71 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private void login() {
 
+        // 判断帐号密码是否为空
+        final String loginName = etLoginName.getText().toString();
+        final String loginPwd = etLoginPwd.getText().toString();
+        if (TextUtils.isEmpty(loginName) || TextUtils.isEmpty(loginPwd)) {
+            showToast("用户名密码不能为空！");
+            return;
+        }
+
+        // 登录逻辑处理
+        Model.getInstance().getGlobalThreadPool().execute(new Runnable() {
+            @Override
+            public void run() {
+
+                EMClient.getInstance().login(loginName, loginPwd, new EMCallBack() {
+
+                    // 登录成功后的处理
+                    @Override
+                    public void onSuccess() {
+
+                        //  对模型层数据的处理
+                        Model.getInstance().loginSuccess(new UserInfo(loginName));
+
+                        // 保存用户账号信息到本地
+                        Model.getInstance().getUserAccountDao().addAccount(new UserInfo(loginName));
+
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+
+                                // 提示登录成功
+                                Toast.makeText(LoginActivity.this, "登录成功！", Toast.LENGTH_SHORT).show();
+
+                                // 跳转到主页面
+                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                startActivity(intent);
+                                finish();
+
+                            }
+                        });
+
+                    }
+
+                    // 登录失败后的处理
+                    @Override
+                    public void onError(int i, String s) {
+                        // 登录失败
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(LoginActivity.this, "登录失败！", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                    }
+
+                    // 登录过程中的处理
+                    @Override
+                    public void onProgress(int i, String s) {
+
+                    }
+                });
+
+
+            }
+        });
+        // 关闭页面
 
     }
 

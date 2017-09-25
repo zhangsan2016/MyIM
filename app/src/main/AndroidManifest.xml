@@ -64,7 +64,7 @@
         </receiver>
 
 
-        <activity android:name=".controller.activity.MainActivity" />
+        <activity android:name=".controller.activity.MainActivity" android:launchMode="singleInstance" />
         <activity
             android:name=".controller.activity.LoginActivity"
             android:label="@string/title_activity_login"
