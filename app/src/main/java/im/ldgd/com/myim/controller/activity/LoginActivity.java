@@ -73,7 +73,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             return;
         }
 
-        // 登录逻辑处理
+        /**
+         *    // 登录按钮的页面逻辑处理
+         */
         Model.getInstance().getGlobalThreadPool().execute(new Runnable() {
             @Override
             public void run() {
@@ -129,7 +131,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
             }
         });
-        // 关闭页面
 
     }
 
