@@ -13,19 +13,23 @@
         android:layout_weight="1" />
 
     <RadioGroup
+        android:id="@+id/rg_main"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:orientation="horizontal">
 
         <RadioButton
+            android:id="@+id/rb_main_chat"
             style="@style/rb_main_chat"
             android:text="会话" />
 
         <RadioButton
+            android:id="@+id/rb_main_contact"
             style="@style/rb_main_chat"
             android:text="联系人" />
 
         <RadioButton
+            android:id="@+id/rb_main_setting"
             style="@style/rb_main_chat"
             android:text="设置" />
 
