@@ -47,17 +47,17 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 super.run();
                 // 判断当前帐号是否已经登录过
-                if(EMClient.getInstance().isLoggedInBefore()){  // 登录过
+                if (EMClient.getInstance().isLoggedInBefore()) {  // 登录过
 
                     // 获取登录用户信息
 
                     // 跳转到主页面
-                    Intent intent = new Intent(SplashActivity.this,MainActivity.class);
+                    Intent intent = new Intent(SplashActivity.this, MainActivity.class);
                     startActivity(intent);
 
-                }else{  // 没有登录过
+                } else {  // 没有登录过
                     // 跳转到登录
-                    Intent intent = new Intent(SplashActivity.this,LoginActivity.class);
+                    Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
                     startActivity(intent);
                 }
 
