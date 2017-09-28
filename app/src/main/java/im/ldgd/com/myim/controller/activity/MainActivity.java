@@ -22,6 +22,10 @@ public class MainActivity extends FragmentActivity {
     private RadioButton rbMainContact;
     private RadioButton rbMainSetting;
 
+    private ChatFragment chartFragment;
+    private ContactListFragment contactListFragment;
+    private SettingFragment settingFragment;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +34,16 @@ public class MainActivity extends FragmentActivity {
 
         findViews();
 
+        initData();
+
         initListener();
+
+    }
+
+    private void initData() {
+        chartFragment = new ChatFragment();
+        contactListFragment = new ContactListFragment();
+        settingFragment = new SettingFragment();
 
     }
 
@@ -41,10 +54,10 @@ public class MainActivity extends FragmentActivity {
                 Fragment fragment = null;
                 switch (checkedId) {
                     case R.id.rb_main_chat:
-                        fragment = new ChatFragment();
+                        fragment = chartFragment;
                         break;
                     case R.id.rb_main_contact:
-                        fragment = new ContactListFragment();
+                        fragment = contactListFragment;
                         break;
                     case R.id.rb_main_setting:
                         fragment = new SettingFragment();
