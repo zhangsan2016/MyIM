@@ -69,6 +69,8 @@ public class MainActivity extends FragmentActivity {
             }
 
         });
+
+        rgMain.check(R.id.rb_main_chat);
     }
 
 

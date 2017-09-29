@@ -29,9 +29,11 @@
     </ScrollView>
 
     <Button
+
         android:id="@+id/bt_setting_out"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:textAllCaps="false"
         android:background="@color/holo_red_light"
         android:text="退    出"
         android:textColor="@android:color/white"
