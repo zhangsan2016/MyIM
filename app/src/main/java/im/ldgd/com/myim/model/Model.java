@@ -5,6 +5,7 @@ import android.content.Context;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import im.ldgd.com.myim.model.bean.UserInfo;
 import im.ldgd.com.myim.model.dao.UserAccountDao;
 
 /**

@@ -16,7 +16,7 @@ import com.hyphenate.exceptions.HyphenateException;
 
 import im.ldgd.com.myim.R;
 import im.ldgd.com.myim.model.Model;
-import im.ldgd.com.myim.model.UserInfo;
+import im.ldgd.com.myim.model.bean.UserInfo;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     private EditText etLoginName;

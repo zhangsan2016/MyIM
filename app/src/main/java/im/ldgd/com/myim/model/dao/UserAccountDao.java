@@ -5,7 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import im.ldgd.com.myim.model.UserInfo;
+import im.ldgd.com.myim.model.bean.UserInfo;
 import im.ldgd.com.myim.model.db.UserAccountDB;
 
 /**

@@ -18,8 +18,7 @@ import com.hyphenate.exceptions.HyphenateException;
 
 import im.ldgd.com.myim.R;
 import im.ldgd.com.myim.model.Model;
-import im.ldgd.com.myim.model.UserInfo;
-import im.ldgd.com.myim.utils.LogUtil;
+import im.ldgd.com.myim.model.bean.UserInfo;
 
 /**
  * Created by ldgd on 2017/9/29.
@@ -61,13 +60,13 @@ public class AddContactActivity extends Activity implements View.OnClickListener
     @Override
     public void onClick(View v) {
         if (v == btAddAdd) {
-            LogUtil.e("btAddAddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+
             // 添加好友
             addFriend();
 
 
         } else if (v == tvAddFind) {
-            LogUtil.e("btvAddFinddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+
             // 查找用户
             find();
         }

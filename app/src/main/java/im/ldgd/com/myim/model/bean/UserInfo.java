@@ -1,4 +1,4 @@
-package im.ldgd.com.myim.model;
+package im.ldgd.com.myim.model.bean;
 
 /**
  * Created by ldgd on 2017/9/20.
