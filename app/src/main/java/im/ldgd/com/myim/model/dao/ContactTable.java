@@ -25,6 +25,8 @@ public class ContactTable {
             + COL_IS_CONTACT + " integer);";
 
 
+
+
 }
 
 
