@@ -19,6 +19,7 @@ import com.hyphenate.exceptions.HyphenateException;
 import im.ldgd.com.myim.R;
 import im.ldgd.com.myim.model.Model;
 import im.ldgd.com.myim.model.bean.UserInfo;
+import im.ldgd.com.myim.utils.LogUtil;
 
 /**
  * Created by ldgd on 2017/9/29.
@@ -82,7 +83,10 @@ public class AddContactActivity extends Activity implements View.OnClickListener
 
                 // 去环信服务器添加好友
                 try {
+             //       EMClient.getInstance().contactManager().addContact(userInfo.getName(), "添加好友");
+                    //参数为要添加的好友的username和添加理由
                     EMClient.getInstance().contactManager().addContact(userInfo.getName(), "添加好友");
+                    LogUtil.e("userInfo.getName() = " + userInfo.getName());
 
                     runOnUiThread(new Runnable() {
                         @Override

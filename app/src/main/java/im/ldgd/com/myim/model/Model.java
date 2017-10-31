@@ -46,7 +46,7 @@ public class Model {
         userAccountDao = new UserAccountDao(mContext);
 
         // 开启全局监听
-        //    EventListener eventListener = new EventListener(mContext);
+        EventListener eventListener = new EventListener(mContext);
     }
 
     /**
