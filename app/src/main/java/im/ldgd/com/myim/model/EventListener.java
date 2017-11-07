@@ -5,6 +5,7 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.widget.Toast;
 
 import com.hyphenate.EMContactListener;
+import com.hyphenate.chat.EMClient;
 
 import im.ldgd.com.myim.utils.LogUtil;
 
@@ -26,9 +27,11 @@ public class EventListener {
         // 创建一个发送广播的管理者对象
         mLBM = LocalBroadcastManager.getInstance(mContext);
 
-        Toast.makeText(mContext, "xxxx", Toast.LENGTH_SHORT).show();
+     //   Toast.makeText(mContext, "xxxx", Toast.LENGTH_SHORT).show();
+
         // 注册一个联系人变化的监听
-     //   EMClient.getInstance().contactManager().setContactListener(new MyContactListener());
+    //  EMClient.getInstance().contactManager().setContactListener(new MyContactListener());
+        EMClient.getInstance().contactManager().setContactListener(emContactListener);
 
 
         // 注册一个群信息变化的监听
@@ -69,8 +72,13 @@ public class EventListener {
          */
         @Override
         public void onContactInvited(String s, String s1) {
-            Toast.makeText(mContext, "xxxxxxxxxxxxxxxxxxxxonContactInvited", Toast.LENGTH_SHORT).show();
-            LogUtil.e("onContactAdded");
+            LogUtil.e("MY接收到联系人的新邀请xxxxxxxxxxxxxxxxxxxxonContactInvited");
+            Toast.makeText(mContext, "MY接收到联系人的新邀请xxxxxxxxxxxxxxxxxxxxonContactInvited", Toast.LENGTH_SHORT).show();
+
+
+
+
+
         }
 
         /**
@@ -109,14 +117,14 @@ public class EventListener {
 
         @Override
         public void onContactDeleted(String username) {
-            Toast.makeText(mContext, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
             LogUtil.e("onContactAdded");
+            Toast.makeText(mContext, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
         }
 
         @Override
         public void onContactInvited(String username, String reason) {
-            Toast.makeText(mContext, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
             LogUtil.e("onContactAdded");
+            Toast.makeText(mContext, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
         }
 
         @Override

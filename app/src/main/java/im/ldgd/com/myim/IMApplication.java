@@ -1,6 +1,7 @@
 package im.ldgd.com.myim;
 
 import android.app.Application;
+import android.content.Context;
 import android.widget.Toast;
 
 import com.hyphenate.EMContactListener;
@@ -15,6 +16,8 @@ import im.ldgd.com.myim.utils.LogUtil;
  */
 
 public class IMApplication extends Application {
+
+    private static Context mContext;
 
     @Override
     public void onCreate() {
@@ -43,7 +46,10 @@ public class IMApplication extends Application {
 
 
         // 注册一个联系人变化的监听
-        EMClient.getInstance().contactManager().setContactListener(new MyContactListener());
+      //  EMClient.getInstance().contactManager().setContactListener(new MyContactListener());
+
+        // 初始化全局上下文对象
+        mContext = this;
 
 
     }
@@ -69,8 +75,8 @@ public class IMApplication extends Application {
 
         @Override
         public void onContactInvited(String username, String reason) {
-            Toast.makeText(IMApplication.this, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
             LogUtil.e("onContactAdded");
+            Toast.makeText(IMApplication.this, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
         }
 
         @Override
