@@ -86,6 +86,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     @Override
                     public void onSuccess() {
 
+                        // ** manually load all local groups and conversation
+                        EMClient.getInstance().groupManager().loadAllGroups();
+                        EMClient.getInstance().chatManager().loadAllConversations();
+
+
                         //  对模型层数据的处理
                         Model.getInstance().loginSuccess(new UserInfo(loginName));
 

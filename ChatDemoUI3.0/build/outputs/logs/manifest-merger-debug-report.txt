@@ -784,9 +784,9 @@ ADDED from C:\Users\ldgd\Desktop\project\studio project\MyIM\ChatDemoUI3.0\src\m
 	android:name
 		ADDED from C:\Users\ldgd\Desktop\project\studio project\MyIM\ChatDemoUI3.0\src\main\AndroidManifest.xml:466:13-65
 meta-data#EASEMOB_APPKEY
-ADDED from C:\Users\ldgd\Desktop\project\studio project\MyIM\ChatDemoUI3.0\src\main\AndroidManifest.xml:470:9-472:55
+ADDED from C:\Users\ldgd\Desktop\project\studio project\MyIM\ChatDemoUI3.0\src\main\AndroidManifest.xml:470:9-472:53
 	android:value
-		ADDED from C:\Users\ldgd\Desktop\project\studio project\MyIM\ChatDemoUI3.0\src\main\AndroidManifest.xml:472:13-52
+		ADDED from C:\Users\ldgd\Desktop\project\studio project\MyIM\ChatDemoUI3.0\src\main\AndroidManifest.xml:472:13-50
 	android:name
 		ADDED from C:\Users\ldgd\Desktop\project\studio project\MyIM\ChatDemoUI3.0\src\main\AndroidManifest.xml:471:13-42
 service#com.hyphenate.chat.EMChatService
