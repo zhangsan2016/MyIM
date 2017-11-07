@@ -2,14 +2,11 @@ package im.ldgd.com.myim;
 
 import android.app.Application;
 import android.content.Context;
-import android.widget.Toast;
 
-import com.hyphenate.EMContactListener;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMOptions;
 
 import im.ldgd.com.myim.model.Model;
-import im.ldgd.com.myim.utils.LogUtil;
 
 /**
  * Created by ldgd on 2017/9/18.
@@ -40,13 +37,8 @@ public class IMApplication extends Application {
 //        EMClient.getInstance().setDebugMode(true);
 //        EaseUI.getInstance().init(this,options);
 
-
         // 初始化数据模型层类
         Model.getInstance().init(this);
-
-
-        // 注册一个联系人变化的监听
-      //  EMClient.getInstance().contactManager().setContactListener(new MyContactListener());
 
         // 初始化全局上下文对象
         mContext = this;
@@ -54,41 +46,7 @@ public class IMApplication extends Application {
 
     }
 
-
-    /***
-     * 好友变化listener
-     *
-     */
-    public class MyContactListener implements EMContactListener {
-
-        @Override
-        public void onContactAdded(String username) {
-            Toast.makeText(IMApplication.this, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
-            LogUtil.e("onContactAdded");
-        }
-
-        @Override
-        public void onContactDeleted(String username) {
-            Toast.makeText(IMApplication.this, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
-            LogUtil.e("onContactAdded");
-        }
-
-        @Override
-        public void onContactInvited(String username, String reason) {
-            LogUtil.e("onContactAdded");
-            Toast.makeText(IMApplication.this, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
-        }
-
-        @Override
-        public void onFriendRequestAccepted(String username) {
-            Toast.makeText(IMApplication.this, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
-            LogUtil.e("onContactAdded");
-        }
-
-        @Override
-        public void onFriendRequestDeclined(String username) {
-            Toast.makeText(IMApplication.this, "xxxxxxxxxxxxxxxxxxxxonFriendRequestDeclined", Toast.LENGTH_SHORT).show();
-            LogUtil.e("onContactAdded");
-        }
+    public static Context getGlobalContext() {
+        return mContext;
     }
 }
