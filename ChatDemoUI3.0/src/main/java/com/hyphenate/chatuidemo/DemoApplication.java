@@ -16,6 +16,17 @@ package com.hyphenate.chatuidemo;
 import android.app.Application;
 import android.content.Context;
 import android.support.multidex.MultiDex;
+import android.text.TextUtils;
+
+import com.easemob.redpacketsdk.RPInitRedPacketCallback;
+import com.easemob.redpacketsdk.RPValueCallback;
+import com.easemob.redpacketsdk.RedPacket;
+import com.easemob.redpacketsdk.bean.RedPacketInfo;
+import com.easemob.redpacketsdk.bean.TokenData;
+import com.easemob.redpacketsdk.constant.RPConstant;
+import com.hyphenate.chat.EMClient;
+import com.hyphenate.easeui.domain.EaseUser;
+import com.hyphenate.easeui.utils.EaseUserUtils;
 // ============== fabric start
 //import com.crashlytics.android.Crashlytics;
 //import io.fabric.sdk.android.Fabric;
@@ -45,7 +56,7 @@ public class DemoApplication extends Application {
         
         //init demo helper
         DemoHelper.getInstance().init(applicationContext);
-	/*	//red packet code : 初始化红包SDK，开启日志输出开关
+		//red packet code : 初始化红包SDK，开启日志输出开关
 		RedPacket.getInstance().initRedPacket(applicationContext, RPConstant.AUTH_METHOD_EASEMOB, new RPInitRedPacketCallback() {
 
 			@Override
@@ -76,7 +87,7 @@ public class DemoApplication extends Application {
 				return redPacketInfo;
 			}
 		});
-		RedPacket.getInstance().setDebugMode(true);*/
+		RedPacket.getInstance().setDebugMode(true);
 		//end of red packet code
 	}
 
