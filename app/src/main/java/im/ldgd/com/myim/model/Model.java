@@ -7,6 +7,7 @@ import java.util.concurrent.Executors;
 
 import im.ldgd.com.myim.model.bean.UserInfo;
 import im.ldgd.com.myim.model.dao.UserAccountDao;
+import im.ldgd.com.myim.model.db.DBManager;
 
 /**
  * Created by ldgd on 2017/9/19.
@@ -21,6 +22,7 @@ public class Model {
     // 创建一个定长线程池，支持定时及周期性任务执行。
     private ExecutorService executors = Executors.newCachedThreadPool();
     private UserAccountDao userAccountDao;
+    private DBManager dbManager;
 
 
     // 私有化构造
@@ -55,10 +57,27 @@ public class Model {
      * @param userInfo
      */
     public void loginSuccess(UserInfo userInfo) {
+
+        // 校验userinfo信息
+        if (userInfo == null) {
+            return;
+        }
+
+        // 更新当前登录用户信息
+        if (dbManager != null) {
+            dbManager.close();
+        }
+
+        dbManager = new DBManager(mContext, userInfo.getName());
     }
 
 
     public UserAccountDao getUserAccountDao() {
         return userAccountDao;
+    }
+
+
+    public DBManager getDbManager() {
+        return dbManager;
     }
 }

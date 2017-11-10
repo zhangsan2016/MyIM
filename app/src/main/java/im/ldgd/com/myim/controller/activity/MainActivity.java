@@ -60,7 +60,8 @@ public class MainActivity extends FragmentActivity {
                         fragment = contactListFragment;
                         break;
                     case R.id.rb_main_setting:
-                        fragment = new SettingFragment();
+                       // fragment = new SettingFragment();
+                        fragment = settingFragment;
                         break;
                 }
 

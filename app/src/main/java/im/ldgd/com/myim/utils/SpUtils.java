@@ -12,6 +12,9 @@ import im.ldgd.com.myim.IMApplication;
 
 public class SpUtils {
 
+    // 新的邀请标记
+    public  static  final String  IS_NEW_INVITE = "is_new_invite";
+
     private static SharedPreferences mSp;
     private static SpUtils instance = new SpUtils();
 
