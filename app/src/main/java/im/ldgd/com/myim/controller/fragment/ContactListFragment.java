@@ -23,14 +23,14 @@ import im.ldgd.com.myim.utils.SpUtils;
  */
 
 public class ContactListFragment extends EaseContactListFragment {
-
     private ImageView iv_contact_red;
     private LinearLayout ll_contact_invite;
     private LocalBroadcastManager mLBM;
     private BroadcastReceiver ContactInviteChangeReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            LogUtil.e("新红点显示");
+
+            LogUtil.e("更新红点显示");
             // 更新红点显示
             iv_contact_red.setVisibility(View.VISIBLE);
             SpUtils.getInstance().save(SpUtils.IS_NEW_INVITE, true);
@@ -83,18 +83,19 @@ public class ContactListFragment extends EaseContactListFragment {
                 iv_contact_red.setVisibility(View.GONE);
                 SpUtils.getInstance().save(SpUtils.IS_NEW_INVITE, false);
 
-                // 跳转到练习人信息界面
+                // 跳转到联系人信息界面
                 Intent intent = new Intent(getActivity(), InviteActivity.class);
                 startActivity(intent);
 
             }
         });
 
-        LogUtil.e( "注册广播");
+
 
         // 注册广播
         mLBM = LocalBroadcastManager.getInstance(getActivity());
         mLBM.registerReceiver(ContactInviteChangeReceiver, new IntentFilter(Constant.CONTACT_INVITE_CHANGED));
+        LogUtil.e( "注册广播");
 
     }
 
@@ -102,6 +103,6 @@ public class ContactListFragment extends EaseContactListFragment {
     public void onDestroy() {
         super.onDestroy();
         // 注销广播
-        mLBM.unregisterReceiver(ContactInviteChangeReceiver);
+       // mLBM.unregisterReceiver(ContactInviteChangeReceiver);
     }
 }

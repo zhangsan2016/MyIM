@@ -9,6 +9,7 @@ import com.hyphenate.chat.EMClient;
 
 import im.ldgd.com.myim.model.bean.InvationInfo;
 import im.ldgd.com.myim.model.bean.UserInfo;
+import im.ldgd.com.myim.model.db.DBManager;
 import im.ldgd.com.myim.utils.Constant;
 import im.ldgd.com.myim.utils.LogUtil;
 import im.ldgd.com.myim.utils.SpUtils;
@@ -32,9 +33,7 @@ public class EventListener {
         mLBM = LocalBroadcastManager.getInstance(mContext);
 
         // 注册一个联系人变化的监听
-        //  EMClient.getInstance().contactManager().setContactListener(new MyContactListener());
         EMClient.getInstance().contactManager().setContactListener(emContactListener);
-
 
         // 注册一个群信息变化的监听
         // EMClient.getInstance().groupManager().addGroupChangeListener(eMGroupChangeListener);
@@ -53,7 +52,7 @@ public class EventListener {
         @Override
         public void onContactAdded(String hxid) {
             // 数据更新
-            Model.getInstance().getDbManager().getContactTableDao().saveContact(new UserInfo(hxid),true);
+            Model.getInstance().getDbManager().getContactTableDao().saveContact(new UserInfo(hxid), true);
 
             // 发送邀请信息变化的广播
             mLBM.sendBroadcast(new Intent(Constant.CONTACT_INVITE_CHANGED));
@@ -86,10 +85,12 @@ public class EventListener {
             invationInfo.setReason(reason);
             invationInfo.setStatus(InvationInfo.InvitationStatus.NEW_INVITE); // 新邀请
 
+            DBManager db =Model.getInstance().getDbManager();
+            db.getInviteTableDao();
             Model.getInstance().getDbManager().getInviteTableDao().addInvitation(invationInfo);
 
             // 修改红点SharedPreferences提示状态
-            SpUtils.getInstance().save(SpUtils.IS_NEW_INVITE,true);
+            SpUtils.getInstance().save(SpUtils.IS_NEW_INVITE, true);
 
             // 发送邀请信息变化的广播
             mLBM.sendBroadcast(new Intent(Constant.CONTACT_INVITE_CHANGED));
@@ -127,7 +128,6 @@ public class EventListener {
             mLBM.sendBroadcast(new Intent(Constant.CONTACT_INVITE_CHANGED));
         }
     };
-
 
 
 }

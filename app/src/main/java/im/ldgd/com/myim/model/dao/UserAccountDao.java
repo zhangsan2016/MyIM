@@ -49,7 +49,8 @@ public class UserAccountDao {
         SQLiteDatabase db = mHelper.getReadableDatabase();
 
         // 执行查询语句
-        String sql = "select * from " + UserAccountTable.TAB_NAME + " where" + UserAccountTable.COL_HXID + "=?";
+       // String sql = "select * from " + UserAccountTable.TAB_NAME + " where" + UserAccountTable.COL_HXID + "=?";
+        String sql = "select * from " + UserAccountTable.TAB_NAME + " where " + UserAccountTable.COL_HXID + "=?";
         Cursor cursor = db.rawQuery(sql, new String[]{hxId});
 
         UserInfo userInfo = null;

@@ -22,10 +22,10 @@ public class InviteTable {
     public static final String CREATE_TAB = "create table "
             + TAB_NAME + " ("
             + COL_USRE_HXID + " text primary key,"
-            + COL_USER_NAME + " text"
-            + COL_GROUP_HXID + "text"
-            + COL_GROUP_NAME + "text"
-            + COL_REASON + "text"
+            + COL_USER_NAME + " text,"
+            + COL_GROUP_HXID + "text,"
+            + COL_GROUP_NAME + "text,"
+            + COL_REASON + "text,"
             + COL_STATUS + "text);";
 
 }
